@@ -208,55 +208,55 @@ i {
     width: 35%;
 }
 
+
 .section4 {
-    margin: 4rem;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
+
 }
 
-.div11 {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    height: 20vh;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    align-items: center;
-    padding: 1rem;
-    width: 100%;
+.hero-content {
+    max-width: 600px;
 }
-.div11  {
+
+.section4 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section4 p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.section4 input[type="email"] {
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.section4 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #c0392b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section4 button:hover {
+    background-color: #e74c3c;
+}
+.section4  {
     transition: transform 0.4s ease;
 }
 
-.div11:hover  {
+.section4:hover  {
     transform: scale(1.03);
-}
-.btn {
-    display: inline-block;
-    background-color: #d62828;
-    padding: 12px 25px;
-    color: #fff;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: 0.3s;
-    border: 2px solid white;
-}
-
-form {
-    display: flex;
-    gap: 1rem;
-}
-
-input {
-    padding: 0.6rem;
-}
-
-.div13 {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -3.5rem;
-}
-
-.p2 {
-    font-size: 0.8rem;
 }
 
 footer {
