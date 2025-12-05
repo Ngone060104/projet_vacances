@@ -190,8 +190,10 @@ i {
 
 
 
-.h3 {
-    font-size: 2rem;
+
+#counter,#counterr,#counterrr {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .section3 {
